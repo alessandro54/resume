@@ -5,16 +5,13 @@ import config from "../twind.config";
 
 const withTwind = install(config);
 
-export default class Stack extends withTwind(LitElement) {
+export default class Experience extends withTwind(LitElement) {
   constructor() {
     super();
   }
 
   render() {
     return html`
-      <div class="bg-sky-100 font-bold">
-        Experience
-      </div>
       <section>
         <experience-section
           companyName="Applaudo"
@@ -22,7 +19,7 @@ export default class Stack extends withTwind(LitElement) {
           location="San Salvador, El Salvador"
           modality="Remote - Full Time"
           description="Nearshore Software Developing Company"
-          interval="Jul '22 ~ Present"
+          interval="Jul 22 - Present"
           achievements='[
                           "Development directly following the Product Owner to build scalable and high-quality solutions.",
                           "Decision making and construction of solutions focused directly on customer needs.",
@@ -36,7 +33,7 @@ export default class Stack extends withTwind(LitElement) {
           location="Mexico City, Mexico"
           modality="Remote - Full Time"
           description="Crowdfunding web application for investing on Mexican real state."
-          interval="Jul '21 – Jul '22"
+          interval="Jul '21 - Jul '22"
           achievements='[
                           "Focused on Test Driven Development with tools like RSpec and Capybara",
                           "Preparing and migrate the application for an upgrade to a major release of Ruby and Rails.",
@@ -50,11 +47,11 @@ export default class Stack extends withTwind(LitElement) {
           location="Lima, Peru"
           modality="Remote - Full Time"
           description="Digital Platform for the global sale and distribution of tours and activities in Latin America."
-          interval="Sep '20 - Jul '21"
+          interval="Nov '20 - Jul '21"
           achievements='[
-                          "Focused on Test Driven Development with tools like RSpec and Capybara",
-                          "Preparing and migrate the application for an upgrade to a major release of Ruby and Rails.",
-                          "Performed coding methods like pair programming to refactor or build new features for the application."
+                          "Update of legacy code, with a focus on building solutions for the clients, also helped improving the developer experience across applications.",
+                          "Cloud Server management which hosted a Nginx web server.",
+                          "Enhanced Docker integration due to legacy code, also improved developer experience inside the project"
                         ]'
         ></experience-section>
       </section>

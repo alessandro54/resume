@@ -12,23 +12,56 @@
       margin: 0;
     }
 
+    @font-face {
+      font-family: 'ZizouSlab';
+      src: url(./assets/fonts/zizou-slab-regular.otf);
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'ZizouSlab';
+      src: url(./assets/fonts/zizou-slab-bold.otf);
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'ZizouSlab';
+      src: url(./assets/fonts/zizou-slab-thin.otf);
+      font-weight: 100;
+      font-style: normal;
+    }
+
+
     html,
     body {
       width: 210mm;
       height: 297mm;
       margin: auto;
       padding: 0;
+      font-family: 'ZizouSlab';
     }
   </style>
 
 </head>
 
-<body class="!block" style="display:none;">
-  <header-section></header-section>
-  <main>
-    <experiences-section></experiences-section>
-    <tech-stack-section></tech-stack-section>
-  </main>
+<body class="!block shadow-xl bg-slate-100" style="display:none;">
+  <section class="w-full h-full bg-white py-16 px-16">
+    <header-section></header-section>
+    <main class="bg-white">
+      <separator-section title="Experience"></separator-section>
+      <experiences-section></experiences-section>
+      <separator-section title="Additional Projects"></separator-section>
+      <additional-section></additional-section>
+      <separator-section title="Tech Stack"></separator-section>
+      <tech-stack-section></tech-stack-section>
+      <separator-section title="Education"></separator-section>
+      <education-section></education-section>
+      <separator-section title="Extra-curricular"></separator-section>
+      <extra-section></extra-section>
+    </main>
+  </section>
 </body>
 
 </html>
