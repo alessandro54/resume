@@ -15,7 +15,7 @@ export default class Separator extends withTwind(LitElement) {
 
   render() {
     return html`
-      <div class="bg-sky-100 font-bold my-2 px-1 uppercase">
+      <div class="bg-sky-100 font-bold my-1 px-1 uppercase">
         ${this.title}
       </div>
     `;

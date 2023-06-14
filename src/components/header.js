@@ -24,7 +24,7 @@ export default class Header extends withTwind(LitElement) {
           </div>
           <span class="text-xs font-semibold">Lima - Peru</span>
         </address>
-        <p class="leading-none text-sm p-1 text-justify">
+        <p class="leading-none text-[12.5px] p-1 text-justify">
           Full Stack Software engineer specialized in Ruby with proven 3 years
           of experience in the industry, also with a solid background in data
           science as supplement mainly focused on decision making and to build
