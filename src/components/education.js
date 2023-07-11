@@ -21,7 +21,7 @@ export default class Education extends withTwind(LitElement) {
                 <strong>Universidad Peruana de Ciencias Aplicadas (UPC)</strong> | Software
                 Engineering
               </h4>
-              <strong>Aug'15 - Present</strong>
+              <strong>Aug 2015 - Present</strong>
             </div>
           </span>
         </div>
@@ -29,10 +29,11 @@ export default class Education extends withTwind(LitElement) {
           <span>
             <div class="flex justify-between">
               <h4>
-                <strong>Codeable</strong>
-                - Cohort 2 | <a href="codeabe.la" target="_blank">codeable.la</a>
+                <a href="codeabe.la" target="_blank">
+                  <strong>Codeable</strong> | Cohort 2
+                </a>
               </h4>
-              <strong>Mar'20 - Sep'20</strong>
+              <strong>Mar 2020 - Sep 2020</strong>
             </div>
             <p class="leading-none italic font-normal">Intensive 6-month full-time coding Bootcamp. The program focuses on strengthening the technical skills as well as Soft Skills like leadership, assertive communication, teamwork, empathy among others.</p>
             <br/>

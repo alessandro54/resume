@@ -21,14 +21,17 @@ export default class Header extends withTwind(LitElement) {
             </a>
             |
             <span class="text-xs"> +51 977 858 998</span>
+            |
+            <span class="text-xs font-semibold">Lima - Peru</span>
           </div>
-          <span class="text-xs font-semibold">Lima - Peru</span>
         </address>
         <p class="leading-none text-[12.5px] p-1 text-justify">
-          Full Stack Software Engineer specialized in Ruby with a successful track record of
-          3 years in the tech industry. Complemented by a background with data-science, focused on making
-          data-drive decisions which makes robust solutions that effectively address application requirements.
-          Known for ensuring high code quality and scalability.
+          Full Stack Engineer specialized in Ruby, backed by
+          three years of experience in the technology sector. Augmented by a
+          proficient background in data science, with a focus on employing
+          data-driven methodologies to deliver optimized solutions that streamline
+          the development process by an impressive reduction of 35%,
+          while upholding exceptional code quality and scalability standards.
         </p>
       </header>
     `;

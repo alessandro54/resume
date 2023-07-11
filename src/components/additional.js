@@ -32,12 +32,11 @@ export default class Additional extends withTwind(LitElement) {
               Wellness practice.
             </p>
           </div>
-          <div class="font-bold text-sm">Nov'22 - Present</div>
+          <div class="font-bold text-sm">Nov 2022 - Present</div>
         </div>
         <div>
           <p class="text-xs pl-4">
-          Implemented a revamp of the 'Professional Profile', providing users with more control
-          over shared information about their services, resulting in a 55% increase in client satisfaction.
+          Led the initiative to revamp the 'Professional Profile', providing users with advanced autonomy in managing shared service information; directly contributing to a remarkable 45% surge in overall client satisfaction.
           </p>
         </div>
         <div class="flex justify-between items-center pl-2">
@@ -57,11 +56,11 @@ export default class Additional extends withTwind(LitElement) {
             Meta search engine for buying and selling real estate in Peru, Mexico, Ecuador, and Colombia.
             </p>
           </div>
-          <div class="font-bold text-sm">Oct'21 - Jan'22</div>
+          <div class="font-bold text-sm">Oct 2021 - Jan 2022</div>
         </div>
         <div>
           <p class="text-xs pl-4">
-          Developed and implemented a robust JSON API, exposing 15+ services to
+          Developed and implemented a robust JSON API, exposing 10+ services to
           customers, resulting in a 40% reduction in response time and enabling seamless integration with third-party applications.
           </p>
         </div>

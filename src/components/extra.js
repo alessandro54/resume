@@ -25,12 +25,6 @@ export default class Extra extends withTwind(LitElement) {
             </a>
           </li>
           <li>
-            Udemy |
-            <a href="https://www.udemy.com/certificate/UC-38c82a41-10dd-4691-b8b3-e46f74e8daf3/" target="_blank">
-              The Complete Web Developer in 2023: Zero to Mastery
-            </a>
-          </li>
-          <li>
             B2 English Proficiency
           </li>
         </ul>

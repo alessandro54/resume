@@ -36,7 +36,7 @@ export default class Experience extends withTwind(LitElement) {
           </div>
           <div class="flex flex-col items-end">
             <div class="font-bold text-sm">${this.interval}</div>
-            <div class="text-sm">${this.location}</div>
+            <div class="text-sm">${this.location} (Remote)</div>
           </div>
         </div>
         <div>
