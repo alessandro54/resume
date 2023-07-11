@@ -15,7 +15,7 @@ export default class Stack extends withTwind(LitElement) {
   }
   render() {
     return html`
-      <section class="grid grid(cols-2 rows-2) text-xs h-[30mm]">
+      <section class="grid grid(cols-2 rows-2) text-xs h-[26mm]">
         <!-- Server side -->
         <div class="flex flex-col items-center border-r-2 border-gray-200">
           <h2 class="font-bold"> Server Side </h1>

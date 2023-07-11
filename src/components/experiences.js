@@ -23,7 +23,7 @@ export default class Experience extends withTwind(LitElement) {
           achievements='[
                           "Collaborated with product and design teams to redesign the entire application interface, improving retention and user experience by 40%.",
                           "Designed and executed client-centric solutions, achieving a remarkable 80% reduction in QA refuse rate and elevating client satisfaction within sprints.",
-                          "Optimized development process through Agile methodology, facilitating daily stand-ups, sprint planning, and retrospectives; utilized feedback to enhance team performance and achieve a 60% increase in development speed"
+                          "Optimized development process through Agile methodology, facilitating daily stand-ups, sprint planning, and retrospectives; utilized feedback to enhance team performance and achieve a 60% increase in development speed."
                         ]'
         ></experience-section>
 
@@ -37,7 +37,7 @@ export default class Experience extends withTwind(LitElement) {
           achievements='[
                           "Implemented new features following the TDD process to reduce error count by a 70% in production environment.",
                           "Proposed and led the upgrade migration of the application up to two major releases of Ruby and Rails reducing technical debt by a 50%.",
-                          "Spearheaded the adoption of coding best practices, including pair programming, resulting in a 30% increase in development speed and a 20% decrease in time spent on bug fixing."
+                          "Initiated the incorporation of coding best practices, including pair programming, resulting in a 30% acceleration in development speed and a 20% reduction in bug fixing duration."
                         ]'
         ></experience-section>
 
