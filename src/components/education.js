@@ -34,7 +34,7 @@ export default class Education extends withTwind(LitElement) {
               </h4>
               <strong>Mar'20 - Sep'20</strong>
             </div>
-            <p class="leading-none italic font-light">Intensive 6-month fulltime coding Bootcamp. The program focuses on strengthening the technical skills as well as Soft Skills like leadership, assertive communication, teamwork, empathy among others.</p>
+            <p class="leading-none italic font-normal">Intensive 6-month full-time coding Bootcamp. The program focuses on strengthening the technical skills as well as Soft Skills like leadership, assertive communication, teamwork, empathy among others.</p>
             <br/>
           </span>
         </div>

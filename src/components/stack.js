@@ -9,27 +9,20 @@ export default class Stack extends withTwind(LitElement) {
   constructor() {
     super();
     this.languages = ["Ruby", "Python", "C++/C#", "Typescript"];
-    this.extraTools = ["Node", "Vercel", "Linux", "Sanity", "Docker/Compose"];
+    this.serverSide = ["Ruby on Rails", "FastAPI", "PostgresSQL", "MySQL"];
+    this.clientSide = ["Next.js", "Svelte.kit", "TailwindCSS", "Jquery"]
+    this.extraTools = ["Node", "Vercel", "Linux", "Sanity CMS", "Docker-Compose"];
   }
   render() {
     return html`
-      <section class="grid grid(cols-2 rows-2) text-xs h-[35mm]">
+      <section class="grid grid(cols-2 rows-2) text-xs h-[30mm]">
         <!-- Server side -->
         <div class="flex flex-col items-center border-r-2 border-gray-200">
           <h2 class="font-bold"> Server Side </h1>
           <div class="w-full flex justify-between pl-10">
-            <div>
-              <ul class="list-disc">
-                <li>Ruby on Rails</li>
-                <li>FastAPI</li>
-                <li>Express</li>
-              </ul>
-            </div>
-            <div>
-              <ul class="list-disc pr-8">
-                <li>PostgresSQL</li>
-                <li>MySQL</li>
-                <li>MongoDB</li>
+            <div class="w-full">
+              <ul class="list-disc grid grid-cols-2 gap-x-20">
+                ${this.serverSide.map((ss) => html`<li>${ss}</li>`)}
               </ul>
             </div>
           </div>
@@ -38,18 +31,9 @@ export default class Stack extends withTwind(LitElement) {
         <div class="flex flex-col items-center">
           <h2 class="font-bold"> Client Side </h1>
           <div class="w-full flex justify-between">
-            <div class="pl-10">
-              <ul class="list-disc ">
-                <li>Next</li>
-                <li>Svelte</li>
-                <li>Nuxt</li>
-              </ul>
-            </div>
-            <div class="pr-5">
-              <ul class="list-disc">
-                <li>Tailwind</li>
-                <li>Styled Components/ Twind</li>
-                <li>Jquery</li>
+            <div class="w-full pl-10">
+              <ul class="list-disc grid grid-cols-2 gap-x-20">
+                ${this.clientSide.map((cs) => html`<li>${cs}</li>`)}
               </ul>
             </div>
           </div>
@@ -58,7 +42,7 @@ export default class Stack extends withTwind(LitElement) {
         <div class="flex flex-col items-center border-r-2 border-gray-200">
           <div class="w-11/12 h-0.5 bg-gray-200 my-0.5"></div>
           <h2 class="font-bold"> Programming Languages</h1>
-          <ul class="w-full list-disc flex flex-wrap pl-10">
+          <ul class="w-full list-disc grid grid-cols-2 gap-x-20 pl-10">
             ${this.languages.map((l) => html`<li class="w-1/2">${l}</li>`)}
           </ul>
         </div>

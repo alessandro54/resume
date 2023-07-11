@@ -36,8 +36,8 @@ export default class Additional extends withTwind(LitElement) {
         </div>
         <div>
           <p class="text-xs pl-4">
-            Introduced the new 'Professional Profile' module. Which gives a
-            presentation card for the clients.
+          Implemented a revamp of the 'Professional Profile', providing users with more control
+          over shared information about their services, resulting in a 55% increase in client satisfaction.
           </p>
         </div>
         <div class="flex justify-between items-center pl-2">
@@ -48,12 +48,12 @@ export default class Additional extends withTwind(LitElement) {
               >
                 Gojom.pe
               </h2>
-              <span class="pl-2 text-base underline">Software Consultant</span>
+              <span class="pl-2 text-base underline">Ruby Developer</span>
               <small class="pl-2 text-xs italic font-semibold leading-none">
                 Lima, Peru (Remote - Freelance)
               </small>
             </div>
-            <p class="leading-none text-sm italic font-light">
+            <p class="leading-none text-xs italic font-light">
             Meta search engine for buying and selling real estate in Peru, Mexico, Ecuador, and Colombia.
             </p>
           </div>
@@ -61,7 +61,8 @@ export default class Additional extends withTwind(LitElement) {
         </div>
         <div>
           <p class="text-xs pl-4">
-            Introduced an JSON API exposing services for customers
+          Developed and implemented a robust JSON API, exposing 15+ services to
+          customers, resulting in a 40% reduction in response time and enabling seamless integration with third-party applications.
           </p>
         </div>
       </section>

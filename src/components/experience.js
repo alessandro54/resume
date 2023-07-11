@@ -26,24 +26,21 @@ export default class Experience extends withTwind(LitElement) {
     return html`
       <section class="my-1.5">
         <div class="flex justify-between items-center pl-2">
-          <div class="mb-2">
+          <div>
             <div class="flex items-center leading-none pb-0.5">
-              <h2 class="font-bold pr-2 text-lg leading-none border-black border-r-2">
+              <h2 class="font-bold pr-2 text-lg leading-none">
                 ${this.companyName}
               </h2>
-              <span class="pl-2 text-base underline">${this.roleName}</span>
             </div>
-            <p class="text-xs italic font-semibold leading-none">
-              ${this.location} (${this.modality})
-            </p>
-            <p class="leading-none text-sm italic font-light">
-              ${this.description}
-            </p>
+            <span class="text-base leading-none">${this.roleName}</span>
           </div>
-          <div class="font-bold text-sm">${this.interval}</div>
+          <div class="flex flex-col items-end">
+            <div class="font-bold text-sm">${this.interval}</div>
+            <div class="text-sm">${this.location}</div>
+          </div>
         </div>
         <div>
-          <ul class="list-disc text-sm leading-4 pl-8 text-justify text-base">
+          <ul class="list-disc text-sm leading-4 pl-6 text-justify text-base">
             ${this.achievements.map(
               (achievement) => html` <li>${achievement}</li> `
             )}

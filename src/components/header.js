@@ -25,11 +25,10 @@ export default class Header extends withTwind(LitElement) {
           <span class="text-xs font-semibold">Lima - Peru</span>
         </address>
         <p class="leading-none text-[12.5px] p-1 text-justify">
-          Full Stack Software engineer specialized in Ruby with proven 3 years
-          of experience in the industry, also with a solid background in data
-          science as supplement mainly focused on decision making and to build
-          successful solutions covering the application needs ensuring the high
-          code quality and scalability that overcomes any obstacle.
+          Full Stack Software Engineer specialized in Ruby with a successful track record of
+          3 years in the tech industry. Complemented by a background with data-science, focused on making
+          data-drive decisions which makes robust solutions that effectively address application requirements.
+          Known for ensuring high code quality and scalability.
         </p>
       </header>
     `;
