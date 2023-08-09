@@ -16,8 +16,8 @@ export default class Header extends withTwind(LitElement) {
         <address class="flex flex-col justify-center items-center not-italic">
           <h1 class="font-semibold text-xl">Alessandro Paris Chumpitaz Paredes</h1>
           <div>
-            <a class="text-xs text-sky-600" href="mailto:alessandrochumpitazp@gmail.com" target="_blank">
-              alessandrochumpitazp@gmail.com
+            <a class="text-xs text-sky-600" href="mailto:alessandro.chumpitazp@gmail.com" target="_blank">
+              alessandro.chumpitazp@gmail.com
             </a>
             |
             <span class="text-xs"> +51 977 858 998</span>

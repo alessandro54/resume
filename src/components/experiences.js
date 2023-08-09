@@ -19,7 +19,7 @@ export default class Experience extends withTwind(LitElement) {
           location="San Salvador, El Salvador"
           modality="Remote - Full Time"
           description="Nearshore Software Developing Company"
-          interval="Jul 2022 - Present"
+          interval="Jul 2022 - Jul 2023"
           achievements='[
                           "Collaborated with product and design teams to redesign the entire application interface, improving retention and user experience by 40%.",
                           "Designed and executed client-centric solutions, achieving a remarkable 80% reduction in QA refuse rate and elevating client satisfaction within sprints.",
