@@ -7,5 +7,5 @@ export default defineConfig({
     presetAutoprefix(),
     presetTailwind(),
     presetExt()
-  ],
+  ]
 })

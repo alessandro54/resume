@@ -1,16 +1,18 @@
-import { LitElement, html } from "lit";
+import { LitElement, html } from 'lit'
 
-import install from "@twind/with-web-components";
-import config from "../twind.config";
+import install from '@twind/with-web-components'
+import config from '../../twind.config'
+import { msg, updateWhenLocaleChanges } from '@lit/localize'
 
-const withTwind = install(config);
+const withTwind = install(config)
 
-export default class Header extends withTwind(LitElement) {
-  constructor() {
-    super();
+class Header extends withTwind(LitElement) {
+  constructor () {
+    super()
+    updateWhenLocaleChanges(this)
   }
 
-  render() {
+  render () {
     return html`
       <header class="flex flex-col w-full">
         <address class="flex flex-col justify-center items-center not-italic">
@@ -26,14 +28,18 @@ export default class Header extends withTwind(LitElement) {
           </div>
         </address>
         <p class="leading-none text-[12.5px] p-1 text-justify">
-          Full Stack Engineer specialized in Ruby, backed by
-          three years of experience in the technology sector. Augmented by a
-          proficient background in data science, with a focus on employing
-          data-driven methodologies to deliver optimized solutions that streamline
-          the development process by an impressive reduction of 35%,
-          while upholding exceptional code quality and scalability standards.
+          ${msg(`
+            Full Stack Engineer specialized in Ruby, backed by
+            three years of experience in the technology sector. Augmented by a
+            proficient background in data science, with a focus on employing
+            data-driven methodologies to deliver optimized solutions that streamline
+            the development process by an impressive reduction of 35%,
+            while upholding exceptional code quality and scalability standards.
+          `)}
         </p>
       </header>
-    `;
+    `
   }
 }
+
+customElements.define('header-section', Header)

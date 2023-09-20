@@ -1,19 +1,20 @@
-import { LitElement, html } from "lit";
+import { LitElement, html } from 'lit'
 
-import install from "@twind/with-web-components";
-import config from "../twind.config";
+import install from '@twind/with-web-components'
+import config from '../../twind.config'
 
-const withTwind = install(config);
+const withTwind = install(config)
 
-export default class Stack extends withTwind(LitElement) {
-  constructor() {
-    super();
-    this.languages = ["Ruby", "Python", "C++/C#", "Typescript"];
-    this.serverSide = ["Ruby on Rails", "FastAPI", "PostgresSQL", "MySQL"];
-    this.clientSide = ["Next.js", "Svelte.kit", "TailwindCSS", "Jquery"]
-    this.extraTools = ["Node", "Vercel", "Linux", "Sanity CMS", "Docker-Compose"];
+class Stack extends withTwind(LitElement) {
+  constructor () {
+    super()
+    this.languages = ['Ruby', 'Python', 'C++/C#', 'Typescript']
+    this.serverSide = ['Ruby on Rails', 'FastAPI', 'PostgresSQL', 'MySQL']
+    this.clientSide = ['Next.js', 'Svelte.kit', 'TailwindCSS', 'Jquery']
+    this.extraTools = ['Node', 'Vercel', 'Linux', 'Sanity CMS', 'Docker-Compose']
   }
-  render() {
+
+  render () {
     return html`
       <section class="grid grid(cols-2 rows-2) text-xs h-[26mm]">
         <!-- Server side -->
@@ -55,6 +56,8 @@ export default class Stack extends withTwind(LitElement) {
           </ul>
         </div>
       </section>
-    `;
+    `
   }
 }
+
+customElements.define('tech-stack-section', Stack)

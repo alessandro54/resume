@@ -1,17 +1,17 @@
-import { LitElement, html } from "lit";
+import { LitElement, html } from 'lit'
 
-import install from "@twind/with-web-components";
-import config from "../twind.config";
+import install from '@twind/with-web-components'
+import config from '../../twind.config'
 
-const withTwind = install(config);
+const withTwind = install(config)
 
-export default class Education extends withTwind(LitElement) {
-  constructor() {
-    super();
-    this.achievements = [];
+class Education extends withTwind(LitElement) {
+  constructor () {
+    super()
+    this.achievements = []
   }
 
-  render() {
+  render () {
     return html`
       <section class="text-sm pl-3 h-[21mm]">
         <div class="mb-2">
@@ -40,6 +40,8 @@ export default class Education extends withTwind(LitElement) {
           </span>
         </div>
       </section>
-    `;
+    `
   }
 }
+
+customElements.define('education-section', Education)

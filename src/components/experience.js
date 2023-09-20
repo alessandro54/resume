@@ -1,11 +1,12 @@
-import { LitElement, html } from "lit";
+import { LitElement, html } from 'lit'
 
-import install from "@twind/with-web-components";
-import config from "../twind.config";
+import install from '@twind/with-web-components'
+import config from '../../twind.config'
+import { updateWhenLocaleChanges } from '@lit/localize'
 
-const withTwind = install(config);
+const withTwind = install(config)
 
-export default class Experience extends withTwind(LitElement) {
+class Experience extends withTwind(LitElement) {
   static properties = {
     test: { type: String },
     companyName: { type: String },
@@ -14,15 +15,16 @@ export default class Experience extends withTwind(LitElement) {
     modality: { type: String },
     description: { type: String },
     interval: { type: String },
-    achievements: { type: Array },
-  };
-
-  constructor() {
-    super();
-    this.achievements = [];
+    achievements: { type: Array }
   }
 
-  render() {
+  constructor () {
+    super()
+    this.achievements = []
+    updateWhenLocaleChanges(this)
+  }
+
+  render () {
     return html`
       <section class="my-1.5">
         <div class="flex justify-between items-center pl-2">
@@ -47,6 +49,8 @@ export default class Experience extends withTwind(LitElement) {
           </ul>
         </div>
       </section>
-    `;
+    `
   }
 }
+
+customElements.define('experience-section', Experience)

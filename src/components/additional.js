@@ -1,17 +1,17 @@
-import { LitElement, html } from "lit";
+import { LitElement, html } from 'lit'
 
-import install from "@twind/with-web-components";
-import config from "../twind.config";
+import install from '@twind/with-web-components'
+import config from '../../twind.config'
 
-const withTwind = install(config);
+const withTwind = install(config)
 
 export default class Additional extends withTwind(LitElement) {
-  constructor() {
-    super();
-    this.achievements = [];
+  constructor () {
+    super()
+    this.achievements = []
   }
 
-  render() {
+  render () {
     return html`
       <section class="my-1.5">
         <div class="flex justify-between items-center pl-2 h-[10mm]">
@@ -53,7 +53,7 @@ export default class Additional extends withTwind(LitElement) {
               </small>
             </div>
             <p class="leading-none text-xs italic font-light">
-            Meta search engine for buying and selling real estate in Peru, Mexico, Ecuador, and Colombia.
+            Metasearch engine for buying and selling real estate in Peru, Mexico, Ecuador, and Colombia.
             </p>
           </div>
           <div class="font-bold text-sm">Oct 2021 - Jan 2022</div>
@@ -65,6 +65,8 @@ export default class Additional extends withTwind(LitElement) {
           </p>
         </div>
       </section>
-    `;
+    `
   }
 }
+
+customElements.define('additional-section', Additional)

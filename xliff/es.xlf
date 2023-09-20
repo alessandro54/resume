@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file target-language="es" source-language="en" original="lit-localize-inputs" datatype="plaintext">
+        <body>
+            <trans-unit id="seb2ece10780bcc6f">
+                <source>
+            Full Stack Engineer specialized in Ruby, backed by
+            three years of experience in the technology sector. Augmented by a
+            proficient background in data science, with a focus on employing
+            data-driven methodologies to deliver optimized solutions that streamline
+            the development process by an impressive reduction of 35%,
+            while upholding exceptional code quality and scalability standards.
+          </source>
+                <target>
+                    Full Stack Engineer especializado en Ruby, avalado por
+                    tres años de experiencia en el sector tecnológico. Aumentado por un
+                    experiencia en la ciencia de datos, con un enfoque en el empleo de
+                    metodologías basadas en datos para ofrecer soluciones optimizadas que agilizan
+                    el proceso de desarrollo con una impresionante reducción del 35%,
+                    manteniendo al mismo tiempo una calidad de código y unos estándares de escalabilidad excepcionales.
+                </target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
