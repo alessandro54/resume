@@ -1,25 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-    <file target-language="es" source-language="en" original="lit-localize-inputs" datatype="plaintext">
-        <body>
-            <trans-unit id="seb2ece10780bcc6f">
-                <source>
-            Full Stack Engineer specialized in Ruby, backed by
-            three years of experience in the technology sector. Augmented by a
-            proficient background in data science, with a focus on employing
-            data-driven methodologies to deliver optimized solutions that streamline
-            the development process by an impressive reduction of 35%,
-            while upholding exceptional code quality and scalability standards.
-          </source>
-                <target>
-                    Full Stack Engineer especializado en Ruby, avalado por
-                    tres años de experiencia en el sector tecnológico. Aumentado por un
-                    experiencia en la ciencia de datos, con un enfoque en el empleo de
-                    metodologías basadas en datos para ofrecer soluciones optimizadas que agilizan
-                    el proceso de desarrollo con una impresionante reducción del 35%,
-                    manteniendo al mismo tiempo una calidad de código y unos estándares de escalabilidad excepcionales.
-                </target>
-            </trans-unit>
-        </body>
-    </file>
+  <file target-language="es" source-language="en" original="lit-localize-inputs"
+    datatype="plaintext">
+    <body>
+      <trans-unit id="seb2ece10780bcc6f">
+        <source>
+          Full Stack Engineer specialized in Ruby, backed by
+          three years of experience in the technology sector. Augmented by a
+          proficient background in data science, with a focus on employing
+          data-driven methodologies to deliver optimized solutions that streamline
+          the development process by an impressive reduction of 35%,
+          while upholding exceptional code quality and scalability standards.
+        </source>
+        <target>
+          Desarrollador Full Stack especializado en Ruby, avalado por
+          tres años de experiencia en el sector tecnológico.
+          Complementada por, experiencia en la ciencia de datos, con un enfoque en el empleo de
+          metodologías basadas en datos para ofrecer soluciones optimizadas que agilizan
+          el proceso de desarrollo con una impresionante reducción del 35%,
+          manteniendo al mismo tiempo una calidad de código y unos estándares de
+          escalabilidad excepcionales.
+        </target>
+      </trans-unit>
+      <trans-unit id="sd9c15bb0dedd6981">
+        <source>Ruby on Rails Developer</source>
+        <target>Desarrollador Ruby on Rails</target>
+      </trans-unit>
+      <trans-unit id="s062fa9dbff78c2c9">
+        <source>Software Consultant</source>
+        <target>Consultor IT</target>
+      </trans-unit>
+      <trans-unit id="sed861c987feab31d">
+        <source>Mexico City, Mexico (Remote - Freelance)</source>
+        <target>Ciudad de Mexico (Remoto - Freelance)</target>
+      </trans-unit>
+      <trans-unit id="sfb974afd422d4412">
+        <source>SaaS enabled marketplace of furnished &amp; flexible-lease spaces for Wellness
+          practice.</source>
+        <target>Mercado SaaS de espacios amueblados y de alquiler flexible para la práctica del
+          Wellness.</target>
+      </trans-unit>
+      <trans-unit id="s46ff032f7edb8253">
+        <source>Led the initiative to revamp the "Professional Profile", providing users with
+          advanced autonomy in managing shared service information; directly contributing to a
+          remarkable 45% surge in overall client satisfaction.</source>
+        <target>Impulsé la iniciativa de renovar el "Perfil Profesional", proporcionando a los
+          usuarios una autonomía avanzada en la gestión de la información de los servicios
+          compartidos; contribuyendo directamente a un notable aumento del 45% en la satisfacción
+          general de los cliente</target>
+      </trans-unit>
+      <trans-unit id="scf9b88fd03718037">
+        <source>Ruby Developer</source>
+        <target>Desarrollador Ruby</target>
+      </trans-unit>
+      <trans-unit id="se8c7aaad1dcd0015">
+        <source>Lima, Peru (Remote - Freelance)</source>
+        <target>
+          Lima, Peru (Remoto - Freelance)
+        </target>
+      </trans-unit>
+      <trans-unit id="s84680b624ce5f366">
+        <source>Metasearch engine for buying and selling real estate in Peru, Mexico, Ecuador, and
+          Colombia.</source>
+          <target>
+            Motor buscador para comprar y vender bienes raíces en Perú, México, Ecuador y Colombia.
+          </target>
+      </trans-unit>
+      <trans-unit id="scb9cce09233733bc">
+        <source>Oct 2021 - Jan 2022</source>
+        <target>Oct 2021 - Ene 2022</target>
+      </trans-unit>
+      <trans-unit id="sdc0c47f3f8da077c">
+        <source>Developed and implemented a robust JSON API, exposing 10+ services to customers,
+          resulting in a 40% reduction in response time and enabling seamless integration with
+          third-party applications.</source>
+          <target>Desarrollamos e implementamos una API JSON robusta, exponiendo más de 10 servicios a los clientes,
+            lo que dio lugar a una reducción del 40% en el tiempo de respuesta y permitió una integración perfecta con
+            aplicaciones de terceros.</target>
+      </trans-unit>
+      <trans-unit id="s4e2fb2c30e7b95b5">
+        <source>Software Engineer</source>
+        <target>Ingeniero de software</target>
+      </trans-unit>
+    </body>
+  </file>
 </xliff>
