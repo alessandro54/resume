@@ -5,4 +5,6 @@ import.meta.glob('./components/*.js', { eager: true })
 
 install(config)
 
-await setLocaleFromUrl()
+window.document.addEventListener('DOMContentLoaded', async () => {
+  await setLocaleFromUrl()
+})

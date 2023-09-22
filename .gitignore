@@ -7,6 +7,7 @@ dist/
 # Ignore IDE specific files
 .vscode/
 .idea/
+.vercel/
 
 # Ignore local development server files
 .lit/
@@ -24,3 +25,4 @@ package-lock.json
 .DS_Store
 Thumbs.db
 
+.vercel
