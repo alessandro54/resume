@@ -2,6 +2,7 @@ import { LitElement, html } from 'lit'
 
 import install from '@twind/with-web-components'
 import config from '../../twind.config'
+import { msg } from '@lit/localize'
 
 const withTwind = install(config)
 
@@ -17,7 +18,7 @@ class Extra extends withTwind(LitElement) {
             </a>
             -
             <a href="https://platzi.com/p/alessandro54/ruta/2-backend-ruby/diploma/detalle/" target="_blank">
-            Desarrollo Web Backend con Ruby on Rails
+            ${msg('Ruby on Rails Backend Development')}
             </a>
           </li>
           <li>

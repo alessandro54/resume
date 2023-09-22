@@ -2,6 +2,7 @@ import { LitElement, html } from 'lit'
 
 import install from '@twind/with-web-components'
 import config from '../../twind.config'
+import { msg, updateWhenLocaleChanges } from '@lit/localize'
 
 const withTwind = install(config)
 
@@ -9,6 +10,7 @@ class Education extends withTwind(LitElement) {
   constructor () {
     super()
     this.achievements = []
+    updateWhenLocaleChanges(this)
   }
 
   render () {
@@ -18,10 +20,10 @@ class Education extends withTwind(LitElement) {
           <span>
             <div class="flex justify-between">
               <h4>
-                <strong>Universidad Peruana de Ciencias Aplicadas (UPC)</strong> | Software
-                Engineering
+                ${msg(html`<strong>Universidad Peruana de Ciencias Aplicadas (UPC)</strong> | Software
+                Engineering`)}
               </h4>
-              <strong>Aug 2015 - Present</strong>
+              <strong>${msg('Aug 2015 - Present')}</strong>
             </div>
           </span>
         </div>
@@ -35,7 +37,9 @@ class Education extends withTwind(LitElement) {
               </h4>
               <strong>Mar 2020 - Sep 2020</strong>
             </div>
-            <p class="leading-none italic font-normal">Intensive 6-month full-time coding Bootcamp. The program focuses on strengthening the technical skills as well as Soft Skills like leadership, assertive communication, teamwork, empathy among others.</p>
+            <p class="leading-none italic font-normal">
+              ${msg('Intensive 6-month full-time coding Bootcamp. The program focuses on strengthening the technical skills as well as Soft Skills like leadership, assertive communication, teamwork, empathy among others.')}
+            </p>
             <br/>
           </span>
         </div>

@@ -33,7 +33,7 @@ export default class Additional extends withTwind(LitElement) {
               ${msg('SaaS enabled marketplace of furnished & flexible-lease spaces for Wellness practice.')}
             </p>
           </div>
-          <div class="font-bold text-sm">Nov 2022 - Present</div>
+          <div class="font-bold text-sm">${msg('Nov 2022 - Aug 2023')}</div>
         </div>
         <div>
           <p class="text-xs pl-4">
