@@ -2,7 +2,7 @@ import { LitElement, html } from 'lit'
 
 import install from '@twind/with-web-components'
 import config from '../../twind.config'
-import { updateWhenLocaleChanges } from '@lit/localize'
+import { msg, updateWhenLocaleChanges } from '@lit/localize'
 
 const withTwind = install(config)
 
@@ -38,7 +38,7 @@ class Experience extends withTwind(LitElement) {
           </div>
           <div class="flex flex-col items-end">
             <div class="font-bold text-sm">${this.interval}</div>
-            <div class="text-sm">${this.location} (Remote)</div>
+            <div class="text-sm">${this.location} ${msg('(Remote)')}</div>
           </div>
         </div>
         <div>

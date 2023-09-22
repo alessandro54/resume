@@ -12,8 +12,12 @@
       'h26cd343136989f27': html`
           <strong>Universidad Peruana de Ciencias Aplicadas (UPC)</strong> | Ingeniería de Software `,
 's062fa9dbff78c2c9': `Consultor IT`,
+'s130d9474dfceacd5': `Stack Tecnológico`,
+'s1d19244f549ec535': `Educación`,
 's28fe3aba33b81566': `Desarrollo Backend en Ruby on Rails`,
+'s35ebed9233ac1d03': `Nov 20' - Jul 21'`,
 's367ed489d52e5559': `Cliente`,
+'s390ec0da19d26244': `(Remoto)`,
 's3b2d051cddc94385': `
           Inició la incorporación de las mejores prácticas de codificación, incluida la programación
           por parejas,
@@ -42,16 +46,18 @@
           entorno de producción
         `,
 's634f7d1cce6719b9': `
-          Diseñó y ejecutó soluciones centradas en el cliente, logrando una notable reducción del
-          80en la tasa de rechazo de control de calidad y elevando la satisfacción del cliente en
+          Diseñé y ejecuté soluciones centradas en el cliente, logrando una notable reducción del
+          80% en la tasa de rechazo de control de calidad y elevando la satisfacción del cliente en
           los sprints.
         `,
 's759f32b4fc64c10a': `
           Aplicación web de crowdfunding para invertir en inmuebles en México.
         `,
+'s76774198d660d0eb': `Jul 22' - Jul 23'`,
 's84680b624ce5f366': `
           Motor buscador para comprar y vender bienes raíces en Perú, México, Ecuador y Colombia.
         `,
+'s977ca6a65f29d7f7': `Jul 21' - Jul 22'`,
 's993485b2d5e6cfa2': `Remoto - Tiempo Completo`,
 's9e57022a898bcf22': `
           Optimización del proceso de desarrollo a través de la metodología Agile, facilitando
@@ -59,27 +65,28 @@
           sprints y retrospectivas; se utilizó el feedback para mejorar el
           equipo y lograr un aumento del 60% en la velocidad de desarrollo.
         `,
+'sa8ce6909ad6fa8fe': `Proyectos Adicionales`,
 'sb14ae6972efa9695': `Servidor`,
 'sb3925e0c5134e25a': `Ciudad de México`,
 'scb9cce09233733bc': `Oct 21' - Ene 22'`,
 'scf9b88fd03718037': `Desarrollador Ruby`,
 'sd162fdcf2bc6f8c9': `
-          Propuso y dirigió la migración de actualización de la aplicación hasta dos versiones
+          Propuse y dirigió la migración de actualización de la aplicación hasta dos versiones
           principales
           de Ruby y Rails reduciendo la deuda técnica en un 50%.
         `,
+'sd6ce591ea5a96549': `Experiencia`,
 'sd9c15bb0dedd6981': `Desarrollador Ruby on Rails`,
-'sdc0c47f3f8da077c': `Desarrollamos e implementamos una API JSON robusta, exponiendo más de 10 servicios a
-          los clientes,
-          lo que dio lugar a una reducción del 40% en el tiempo de respuesta y permitió una
-          integración perfecta con
-          aplicaciones de terceros.`,
+'sdc0c47f3f8da077c': `Desarrollé e implementé una API JSON robusta, exponiendo más de 10 servicios a
+          los clientes, lo que dio lugar a una reducción del 40% en el tiempo de respuesta y permitió una
+          integración perfecta con aplicaciones de terceros.`,
 'se8c7aaad1dcd0015': `
           Lima, Perú (Remoto - Freelance)
         `,
 'se97d0a673c84c1be': `
           Programa intensivo de 6 meses a tiempo completo. El programa se centra en
-          reforzar las habilidades técnicas, así como Soft Skills como el liderazgo y el trabajo en equipo y la empatía, entre otras.
+          reforzar las habilidades técnicas, así como Soft Skills como el liderazgo y el trabajo en
+          equipo y la empatía, entre otras.
         `,
 'seae1a2bcad75123b': `Nov 22' - Ago 23'`,
 'seb2ece10780bcc6f': `
@@ -91,12 +98,14 @@
           manteniendo al mismo tiempo una calidad de código y unos estándares de
           escalabilidad excepcionales.
         `,
+'sebfdca4a51a0acfa': `Extra curricular`,
 'seced8ed1ffc8e1d9': `
-          Integración renovada de Docker en la aplicación, con una mejora impresionante del 80
-          mejora de la experiencia de los desarrolladores; optimización del proceso de
+          Integración renovada de Docker en la aplicación, con una mejora impresionante del 80% mejora de la experiencia de los desarrolladores; optimización del proceso de
           el tiempo de despliegue en un 50% y minimizando los problemas de compatibilidad.
         `,
 'sed861c987feab31d': `Ciudad de México (Remoto - Freelance)`,
+'sf7269093df1aae66': `Mar 20' - Sep 20'`,
+'sf92ee605ad76e3ab': `Empresa de desarrollo de software Nearshore`,
 'sfb974afd422d4412': `Mercado SaaS de espacios amueblados y de alquiler flexible para la práctica del
           Bienestar.`,
     };

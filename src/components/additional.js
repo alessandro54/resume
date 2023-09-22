@@ -15,6 +15,7 @@ export default class Additional extends withTwind(LitElement) {
 
   render () {
     return html`
+      <separator-section title=${msg('Additional Projects')}></separator-section>
       <section class="my-1.5">
         <div class="flex justify-between items-center pl-2 h-[10mm]">
           <div class="mb-2">

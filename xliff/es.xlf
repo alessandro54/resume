@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file target-language="es" source-language="en" original="lit-localize-inputs"
-    datatype="plaintext">
+  <file target-language="es" source-language="en" original="lit-localize-inputs" datatype="plaintext">
     <body>
       <trans-unit id="seb2ece10780bcc6f">
         <source>
-          Full Stack Engineer specialized in Ruby, backed by
-          three years of experience in the technology sector. Augmented by a
-          proficient background in data science, with a focus on employing
-          data-driven methodologies to deliver optimized solutions that streamline
-          the development process by an impressive reduction of 35%,
-          while upholding exceptional code quality and scalability standards.
-        </source>
+            Full Stack Engineer specialized in Ruby, backed by
+            three years of experience in the technology sector. Augmented by a
+            proficient background in data science, with a focus on employing
+            data-driven methodologies to deliver optimized solutions that streamline
+            the development process by an impressive reduction of 35%,
+            while upholding exceptional code quality and scalability standards.
+          </source>
         <target>
           Desarrollador Full Stack especializado en Ruby, avalado por
           tres años de experiencia en el sector tecnológico.
@@ -35,15 +34,12 @@
         <target>Ciudad de México (Remoto - Freelance)</target>
       </trans-unit>
       <trans-unit id="sfb974afd422d4412">
-        <source>SaaS enabled marketplace of furnished &amp; flexible-lease spaces for Wellness
-          practice.</source>
+        <source>SaaS enabled marketplace of furnished &amp; flexible-lease spaces for Wellness practice.</source>
         <target>Mercado SaaS de espacios amueblados y de alquiler flexible para la práctica del
           Bienestar.</target>
       </trans-unit>
       <trans-unit id="s46ff032f7edb8253">
-        <source>Led the initiative to revamp the "Professional Profile", providing users with
-          advanced autonomy in managing shared service information; directly contributing to a
-          remarkable 45% surge in overall client satisfaction.</source>
+        <source>Led the initiative to revamp the "Professional Profile", providing users with advanced autonomy in managing shared service information; directly contributing to a remarkable 45% surge in overall client satisfaction.</source>
         <target>Impulsé la iniciativa de renovar el "Perfil Profesional", proporcionando a los
           usuarios una autonomía avanzada en la gestión de la información de los servicios
           compartidos; contribuyendo directamente a un notable aumento del 45% en la satisfacción
@@ -60,8 +56,7 @@
         </target>
       </trans-unit>
       <trans-unit id="s84680b624ce5f366">
-        <source>Metasearch engine for buying and selling real estate in Peru, Mexico, Ecuador, and
-          Colombia.</source>
+        <source>Metasearch engine for buying and selling real estate in Peru, Mexico, Ecuador, and Colombia.</source>
         <target>
           Motor buscador para comprar y vender bienes raíces en Perú, México, Ecuador y Colombia.
         </target>
@@ -71,30 +66,23 @@
         <target>Oct 21' - Ene 22'</target>
       </trans-unit>
       <trans-unit id="sdc0c47f3f8da077c">
-        <source>Developed and implemented a robust JSON API, exposing 10+ services to customers,
-          resulting in a 40% reduction in response time and enabling seamless integration with
-          third-party applications.</source>
-        <target>Desarrollamos e implementamos una API JSON robusta, exponiendo más de 10 servicios a
-          los clientes,
-          lo que dio lugar a una reducción del 40% en el tiempo de respuesta y permitió una
-          integración perfecta con
-          aplicaciones de terceros.</target>
+        <source>Developed and implemented a robust JSON API, exposing 10+ services to customers, resulting in a 40% reduction in response time and enabling seamless integration with third-party applications.</source>
+        <target>Desarrollé e implementé una API JSON robusta, exponiendo más de 10 servicios a
+          los clientes, lo que dio lugar a una reducción del 40% en el tiempo de respuesta y permitió una
+          integración perfecta con aplicaciones de terceros.</target>
       </trans-unit>
       <trans-unit id="s4e2fb2c30e7b95b5">
         <source>Software Engineer</source>
         <target>Ingeniero de software</target>
       </trans-unit>
       <trans-unit id="h26cd343136989f27">
-        <source><x id="0" equiv-text="&lt;strong&gt;" />Universidad Peruana de Ciencias Aplicadas
-          (UPC)<x id="1" equiv-text="&lt;/strong&gt;" /> | Software Engineering</source>
+        <source><x id="0" equiv-text="&lt;strong&gt;"/>Universidad Peruana de Ciencias Aplicadas (UPC)<x id="1" equiv-text="&lt;/strong&gt;"/> | Software
+                Engineering</source>
         <target>
-          <x id="0" equiv-text="&lt;strong&gt;" />Universidad Peruana de Ciencias Aplicadas (UPC)<x
-            id="1" equiv-text="&lt;/strong&gt;" /> | Ingeniería de Software </target>
+          <x id="0" equiv-text="&lt;strong&gt;"/>Universidad Peruana de Ciencias Aplicadas (UPC)<x id="1" equiv-text="&lt;/strong&gt;"/> | Ingeniería de Software </target>
       </trans-unit>
       <trans-unit id="se97d0a673c84c1be">
-        <source>Intensive 6-month full-time coding Bootcamp. The program focuses on strengthening
-          the technical skills as well as Soft Skills like leadership, assertive communication,
-          teamwork, empathy among others.</source>
+        <source>Intensive 6-month full-time coding Bootcamp. The program focuses on strengthening the technical skills as well as Soft Skills like leadership, assertive communication, teamwork, empathy among others.</source>
         <target>
           Programa intensivo de 6 meses a tiempo completo. El programa se centra en
           reforzar las habilidades técnicas, así como Soft Skills como el liderazgo y el trabajo en
@@ -102,8 +90,7 @@
         </target>
       </trans-unit>
       <trans-unit id="s634e15eeda4d3b16">
-        <source>Implemented new features following the TDD process to reduce error count by a 70% in
-          production environment.</source>
+        <source>Implemented new features following the TDD process to reduce error count by a 70% in production environment.</source>
         <target>
           Implementación de nuevas funciones siguiendo el proceso TDD para reducir el recuento de
           errores en un 70% en
@@ -111,18 +98,15 @@
         </target>
       </trans-unit>
       <trans-unit id="s634f7d1cce6719b9">
-        <source>Designed and executed client-centric solutions, achieving a remarkable 80% reduction
-          in QA refuse rate and elevating client satisfaction within sprints.</source>
+        <source>Designed and executed client-centric solutions, achieving a remarkable 80% reduction in QA refuse rate and elevating client satisfaction within sprints.</source>
         <target>
-          Diseñó y ejecutó soluciones centradas en el cliente, logrando una notable reducción del
-          80en la tasa de rechazo de control de calidad y elevando la satisfacción del cliente en
+          Diseñé y ejecuté soluciones centradas en el cliente, logrando una notable reducción del
+          80% en la tasa de rechazo de control de calidad y elevando la satisfacción del cliente en
           los sprints.
         </target>
       </trans-unit>
       <trans-unit id="s9e57022a898bcf22">
-        <source>Optimized development process through Agile methodology, facilitating daily
-          stand-ups, sprint planning, and retrospectives; utilized feedback to enhance team
-          performance and achieve a 60% increase in development speed.</source>
+        <source>Optimized development process through Agile methodology, facilitating daily stand-ups, sprint planning, and retrospectives; utilized feedback to enhance team performance and achieve a 60% increase in development speed.</source>
         <target>
           Optimización del proceso de desarrollo a través de la metodología Agile, facilitando
           reuniones diarias, planificación de sprints y retrospectivas.diarias, planificación de
@@ -145,18 +129,15 @@
         </target>
       </trans-unit>
       <trans-unit id="sd162fdcf2bc6f8c9">
-        <source>Proposed and led the upgrade migration of the application up to two major releases
-          of Ruby and Rails reducing technical debt by a 50%.</source>
+        <source>Proposed and led the upgrade migration of the application up to two major releases of Ruby and Rails reducing technical debt by a 50%.</source>
         <target>
-          Propuso y dirigió la migración de actualización de la aplicación hasta dos versiones
+          Propuse y dirigió la migración de actualización de la aplicación hasta dos versiones
           principales
           de Ruby y Rails reduciendo la deuda técnica en un 50%.
         </target>
       </trans-unit>
       <trans-unit id="s3b2d051cddc94385">
-        <source>Initiated the incorporation of coding best practices, including pair programming,
-          resulting in a 30% acceleration in development speed and a 20% reduction in bug fixing
-          duration.</source>
+        <source>Initiated the incorporation of coding best practices, including pair programming, resulting in a 30% acceleration in development speed and a 20% reduction in bug fixing duration.</source>
         <target>
           Inició la incorporación de las mejores prácticas de codificación, incluida la programación
           por parejas,
@@ -172,20 +153,16 @@
         </target>
       </trans-unit>
       <trans-unit id="s3efb9420c65c1f82">
-        <source>Streamlined the refactoring of the legacy code reducing the technical debt by
-          approximately 30% and maintaining scalability of the app.</source>
+        <source>Streamlined the refactoring of the legacy code reducing the technical debt by approximately 30% and maintaining scalability of the app.</source>
         <target>
           Racionalizamos la refactorización del código heredado reduciendo la deuda técnica en
           aproximadamente un 30% y manteniendo la escalabilidad de la aplicación.
         </target>
       </trans-unit>
       <trans-unit id="seced8ed1ffc8e1d9">
-        <source>Revamped Docker integration within the application, driving an impressive 80%
-          improvement in developer experience; streamlined containerization process, reducing
-          deployment time by 50% and minimizing compatibility issues.</source>
+        <source>Revamped Docker integration within the application, driving an impressive 80% improvement in developer experience; streamlined containerization process, reducing deployment time by 50% and minimizing compatibility issues.</source>
         <target>
-          Integración renovada de Docker en la aplicación, con una mejora impresionante del 80
-          mejora de la experiencia de los desarrolladores; optimización del proceso de
+          Integración renovada de Docker en la aplicación, con una mejora impresionante del 80% mejora de la experiencia de los desarrolladores; optimización del proceso de
           el tiempo de despliegue en un 50% y minimizando los problemas de compatibilidad.
         </target>
       </trans-unit>
@@ -217,6 +194,50 @@
         <source>Extra tools</source>
         <target>Herramientas</target>
       </trans-unit>
+      <trans-unit id="sa8ce6909ad6fa8fe">
+        <source>Additional Projects</source>
+        <target>Proyectos Adicionales</target>
+      </trans-unit>
+      <trans-unit id="s1d19244f549ec535">
+        <source>Education</source>
+        <target>Educación</target>
+      </trans-unit>
+      <trans-unit id="sd6ce591ea5a96549">
+        <source>Experience</source>
+        <target>Experiencia</target>
+      </trans-unit>
+      <trans-unit id="sebfdca4a51a0acfa">
+        <source>Extra-curricular</source>
+        <target>Extra curricular</target>
+      </trans-unit>
+      <trans-unit id="s130d9474dfceacd5">
+        <source>Tech Stack</source>
+        <target>Stack Tecnológico</target>
+      </trans-unit>
+      <trans-unit id="sf92ee605ad76e3ab">
+        <source>Nearshore Software Developing Company</source>
+        <target>Empresa de desarrollo de software Nearshore</target>
+      </trans-unit>
+      <trans-unit id="s76774198d660d0eb">
+        <source>Jul 2022 - Jul 2023</source>
+        <target>Jul 22' - Jul 23'</target>
+      </trans-unit>
+      <trans-unit id="s977ca6a65f29d7f7">
+        <source>Jul 2021 - Jul 2022</source>
+        <target>Jul 21' - Jul 22'</target>
+      </trans-unit>
+      <trans-unit id="s35ebed9233ac1d03">
+        <source>Nov 2020 - Jul 2021</source>
+        <target>Nov 20' - Jul 21'</target>
+      </trans-unit>
+      <trans-unit id="sf7269093df1aae66">
+        <source>Mar 2020 - Sep 2020</source>
+        <target>Mar 20' - Sep 20'</target>
+      </trans-unit>
+<trans-unit id="s390ec0da19d26244">
+  <source>(Remote)</source>
+  <target>(Remoto)</target>
+</trans-unit>
     </body>
   </file>
 </xliff>

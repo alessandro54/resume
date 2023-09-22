@@ -19,6 +19,7 @@ class Stack extends withTwind(LitElement) {
 
   render () {
     return html`
+      <separator-section title=${msg('Tech Stack')}></separator-section>
       <section class="grid grid(cols-2 rows-2) text-xs h-[26mm]">
         <!-- Server side -->
         <div class="flex flex-col items-center border-r-2 border-gray-200">

@@ -9,6 +9,7 @@ const withTwind = install(config)
 class Extra extends withTwind(LitElement) {
   render () {
     return html`
+      <separator-section title=${msg('Extra-curricular')}></separator-section>
       <section class="px-10">
         <ul class="list-disc leading-none text-sm">
           <li>
