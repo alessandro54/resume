@@ -16,30 +16,22 @@
 's1d19244f549ec535': `Educación`,
 's28fe3aba33b81566': `Desarrollo Backend en Ruby on Rails`,
 's35ebed9233ac1d03': `Nov 20' - Jul 21'`,
-'s367ed489d52e5559': `Cliente`,
 's390ec0da19d26244': `(Remoto)`,
 's3b2d051cddc94385': `
-          Inició la incorporación de las mejores prácticas de codificación, incluida la programación
-          por parejas,
-          lo que se tradujo en una aceleración del 30% de la velocidad de desarrollo y una reducción
-          del 20% de la
-          duración
+          Aplicación de buenas prácticas de codificación como, incluido el pair programming, el cual resultó en la aceleración del 30% de la velocidad de desarrollo y una reducción del 20% de la duración.
         `,
 's3efb9420c65c1f82': `
-          Racionalizamos la refactorización del código heredado reduciendo la deuda técnica en
+          Promoción de la refactorización del código de legado reduciendo la deuda técnica en
           aproximadamente un 30% y manteniendo la escalabilidad de la aplicación.
         `,
-'s46698af6691d1a82': `Herramientas`,
 's46ff032f7edb8253': `Impulsé la iniciativa de renovar el "Perfil Profesional", proporcionando a los
           usuarios una autonomía avanzada en la gestión de la información de los servicios
           compartidos; contribuyendo directamente a un notable aumento del 45% en la satisfacción
           general de los cliente`,
-'s4d9ddb4396efdbb1': `Lenguajes`,
 's4e2fb2c30e7b95b5': `Ingeniero de software`,
 's4fbd72a6c7d19417': `
           Plataforma digital para la distribución de tours y actividades en LATAM.
         `,
-'s55a271f500bbfce4': `Aug 15' - Presente`,
 's634e15eeda4d3b16': `
           Implementación de nuevas funciones siguiendo el proceso TDD para reducir el recuento de
           errores en un 70% en
@@ -47,13 +39,11 @@
         `,
 's634f7d1cce6719b9': `
           Diseñé y ejecuté soluciones centradas en el cliente, logrando una notable reducción del
-          80% en la tasa de rechazo de control de calidad y elevando la satisfacción del cliente en
-          los sprints.
+          80% en la tasa de rechazo de control de calidad y elevando la satisfacción del cliente en los sprints.
         `,
 's759f32b4fc64c10a': `
           Aplicación web de crowdfunding para invertir en inmuebles en México.
         `,
-'s76774198d660d0eb': `Jul 22' - Jul 23'`,
 's84680b624ce5f366': `
           Motor buscador para comprar y vender bienes raíces en Perú, México, Ecuador y Colombia.
         `,
@@ -66,7 +56,6 @@
           equipo y lograr un aumento del 60% en la velocidad de desarrollo.
         `,
 'sa8ce6909ad6fa8fe': `Proyectos Adicionales`,
-'sb14ae6972efa9695': `Servidor`,
 'sb3925e0c5134e25a': `Ciudad de México`,
 'scb9cce09233733bc': `Oct 21' - Ene 22'`,
 'scf9b88fd03718037': `Desarrollador Ruby`,
@@ -89,18 +78,9 @@
           equipo y la empatía, entre otras.
         `,
 'seae1a2bcad75123b': `Nov 22' - Ago 23'`,
-'seb2ece10780bcc6f': `
-          Desarrollador Full Stack especializado en Ruby, avalado por
-          tres años de experiencia en el sector tecnológico.
-          Complementada por, experiencia en la ciencia de datos, con un enfoque en el empleo de
-          metodologías basadas en datos para ofrecer soluciones optimizadas que agilizan
-          el proceso de desarrollo con una impresionante reducción del 35%,
-          manteniendo al mismo tiempo una calidad de código y unos estándares de
-          escalabilidad excepcionales.
-        `,
 'sebfdca4a51a0acfa': `Extra curricular`,
 'seced8ed1ffc8e1d9': `
-          Integración renovada de Docker en la aplicación, con una mejora impresionante del 80% mejora de la experiencia de los desarrolladores; optimización del proceso de
+          Actualización de la integración de Docker en la aplicación, con una notoria mejora del 80% mejora de la experiencia de los desarrolladores; optimización del proceso de
           el tiempo de despliegue en un 50% y minimizando los problemas de compatibilidad.
         `,
 'sed861c987feab31d': `Ciudad de México (Remoto - Freelance)`,
@@ -108,5 +88,16 @@
 'sf92ee605ad76e3ab': `Empresa de desarrollo de software Nearshore`,
 'sfb974afd422d4412': `Mercado SaaS de espacios amueblados y de alquiler flexible para la práctica del
           Bienestar.`,
+'s714f269eb7ae88a0': `Oct 2023 - Apr 2024`,
+'sb3dd517b43ae58d7': `Transformed the concept and ideas to a robust application, applying best architecture practices, building the application from scratch`,
+'sbda375926fa0bc88': `Aug 2015`,
+'s38bcfb8d4eab7835': `Backend Developer`,
+'s76774698d660d96a': `Jul 2022 - Jul 2024`,
+'s94b82b6a90f7a391': `
+            Full Stack Engineer with Expertise in Web Development backed by 4+ years of experience in the
+            technology sector, with extensive expertise in leveraging the most popular frameworks such as Next.js, Ruby on Rails, and
+            FastAPI to deliver high-performing and scalable web applications. Guided by a strong commitment to best practices in UX
+            and UI design, I excel at creating visually appealing and intuitive interfaces that provide an exceptional user experience.
+          `,
     };
   

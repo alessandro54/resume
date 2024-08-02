@@ -19,11 +19,11 @@ export default class Experiences extends withTwind(LitElement) {
       <section>
         <experience-section
           companyName="Applaudo"
-          roleName=${msg('Ruby on Rails Developer')}
+          roleName=${msg('Backend Developer')}
           location="San Salvador, El Salvador"
           modality=${msg('Remote - Full Time')}
           description=${msg('Nearshore Software Developing Company')}
-          interval=${msg('Jul 2022 - Jul 2023')}
+          interval=${msg('Jul 2022 - Jul 2024')}
           achievements=${JSON.stringify([
             msg('Implemented new features following the TDD process to reduce error count by a 70% in production environment.'),
             msg('Designed and executed client-centric solutions, achieving a remarkable 80% reduction in QA refuse rate and elevating client satisfaction within sprints.'),

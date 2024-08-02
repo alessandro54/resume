@@ -29,12 +29,10 @@ class Header extends withTwind(LitElement) {
         </address>
         <p class="leading-none text-[12.5px] p-1 text-justify">
           ${msg(`
-            Full Stack Engineer specialized in Ruby, backed by
-            three years of experience in the technology sector. Augmented by a
-            proficient background in data science, with a focus on employing
-            data-driven methodologies to deliver optimized solutions that streamline
-            the development process by an impressive reduction of 35%,
-            while upholding exceptional code quality and scalability standards.
+            Full Stack Engineer with Expertise in Web Development backed by 4+ years of experience in the
+            technology sector, with extensive expertise in leveraging the most popular frameworks such as Next.js, Ruby on Rails, and
+            FastAPI to deliver high-performing and scalable web applications. Guided by a strong commitment to best practices in UX
+            and UI design, I excel at creating visually appealing and intuitive interfaces that provide an exceptional user experience.
           `)}
         </p>
       </header>

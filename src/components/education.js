@@ -24,7 +24,7 @@ class Education extends withTwind(LitElement) {
                 ${msg(html`<strong>Universidad Peruana de Ciencias Aplicadas (UPC)</strong> | Software
                 Engineering`)}
               </h4>
-              <strong>${msg('Aug 2015 - Present')}</strong>
+              <strong>${msg('Aug 2015')}</strong>
             </div>
           </span>
         </div>
